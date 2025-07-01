@@ -1,0 +1,59 @@
+############################
+# Common Python files      #
+############################
+# Byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (adjust name if you use something else)
+.venv/
+venv/
+env/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+
+
+############################
+# Packaging tools          #
+############################
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Wheel / setuptools
+*.egg-info/
+.eggs/
+
+
+############################
+# IDE configuration files  #
+############################
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sublime Text & others
+*.sublime-project
+*.sublime-workspace
+
+
+############################
+# Operating-system files   #
+############################
+.DS_Store          # macOS
+Thumbs.db          # Windows
+ehthumbs.db
+Icon?
+
+# Swap / patch files
+*.swp
+*.swo
+*.orig
